@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="/styles.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+    <title> Contact </title>
+</head>
+
+<body class="about-body">
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h1>Uitgebreide contactformulier</h1>
+    <form name="contactformulier" method="POST" data-netlify="true">
+        <label>Naam</label>
+        <input type="text" name="naam">
+        <br>
+        <br>
+        <label>E-mail</label>
+        <input type="tel" name="email">
+        <br>
+        <br>
+        <label>Leeftijd</label>
+        <input type="number" name="leeftijd">
+        <br>
+        <br>
+        <label>Geboortedatum</label>
+        <input type="date" name="geboortedatum">
+        <br>
+        <br>
+        <p>Geslacht</p>
+        <lable>Man</lable>
+        <input type="radio" value="man" name="gender">
+        <label>Vrouw</label>
+        <input type="radio" value="vrouw" name="gender">
+        <label>Onzijdig</label>
+        <input type="radio" value="onzijdig" name="gender">
+        <br>
+        <br>
+        <p>Favoriete Cuisin</p>
+        <label>Frans</label>
+        <input type="checkbox" value="frans" name="favoriete cuisin">
+        <label>Italiaans</label>
+        <input type="checkbox" value="italiaans" name="favoriete cuisin">
+        <label>Spaans</label>
+        <input type="checkbox" value="spaans" name="favoriete cuisin">
+        <label>Spaans</label>
+        <input type="checkbox" value="spaans" name="favoriete cuisin">
+        <label>Arabisch</label>
+        <input type="checkbox" value="arabisch" name="favoriete cuisin">
+        <br>
+        <br>
+        <label>Favoriete Kleur Van Short</label>
+        <br>
+        <input type="color" name="favoriete kleur van short">
+        <br>
+        <br>
+        <label>Biografie</label>
+        <br>
+        <textarea placeholder="Type hier uw biografie" rows="10" cols="30" name="message"></textarea>
+        <br>
+        <br>
+        <label>Upload Je Laatste Recept</label>
+        <input type="file" name="upload je laatste recept">
+        <br>
+        <br>
+        <label>Url Naar Je Recepten Website</label>
+        <input type="url" name="url naar je recepten website">
+        <br>
+        <br>
+        <input type="reset">
+        <input type="submit" value="Submit">
+
+
+
+    </form>
+
+</body>
+
+
+
+</html>

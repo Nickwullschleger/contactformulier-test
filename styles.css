@@ -1,0 +1,57 @@
+body{
+    color: rgb(0, 0, 0);
+    font-family: 'Ranchers', cursive;
+    background-color: lightgreen;
+    }
+
+.black-border{ 
+    border: 5px solid black;
+}
+
+#green-background{ 
+    background-color: green;
+}
+
+.about-body{ 
+    background-color: lightpink;
+}
+
+img{ 
+    padding-left: 50px;
+}
+
+
+.navbar ul{ 
+   list-style-type: none;
+   padding: 20px;
+   background-color: rgb(0, 151, 252);  
+}
+
+.navbar li a{
+    color:rgb(245, 245, 245);
+    width: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar li{
+    display: inline;
+}
+.navbar li a:hover{ 
+    background-color: lightblue;
+    color:green;
+}
+
+@media (min-width: 768px){
+
+        body{ background-color: blue;
+        }
+
+}
+
+@media (min-width: 1040px){
+
+    body{ background-color: brown;
+
+    }
+}
